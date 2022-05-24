@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+html(lang="en" dir="ltr")
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Portfolio Site
+    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(rel='stylesheet', href='/static/css/normalize.css')
+    link(rel='stylesheet', href='/static/css/styles.css')
+
+  body
+    #my-info.sidebar
+      .sidebar-info-box
+        br
+        .thumbnail-box
+          img.thumbnail(src='https://placehold.it/550x350', alt='')
+        .dev-intro-box
+
+          h5 Blaine Ruttan
+
+          p My passion is create an websites and apps that reflects your vision and values to your future and current clients. You have passion and a vision to meet the needs of your customers. You are a pro at what you do. I am here to help you show that passion and your expertise to those who you can serve.
+
+          a(href='/about.pug') Learn More &rarr;
+
+    .wrapper
+      .header
+        .header-info-box
+          button#menu-icon.menu-icon(type='button' data-toggle='my-info')
+
+          span Blaine Ruttan
+
+      block content
+
+  script(src='/static/js/script.js')

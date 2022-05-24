@@ -1,0 +1,22 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+    
+    h1 Welcome to my portfolio. 
+
+    //- Description of my portfolio, what this project is, it's purpose, what it's supposed to accomplish. 
+    p Node.js and Express make a powerful pair when used together on the server side, and are used everyday to make fast, modular and dynamic web applications. For this project, I used Node.js, Express and Pug templates to create a portfolio site to show off the projects I've built.
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+       each project in data.projects
+        
+
+        .cell
+          a(href= `/project/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[0]}`, alt=`${project.project_name}`)
+            h5 #{project.project_name}

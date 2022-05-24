@@ -1,0 +1,49 @@
+{
+"projects": [
+    {
+        "id": 0,
+        "project_name": "Random Quote Generator",
+        "description": "Displays my knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote on a 5 second interval",
+        "technologies": ["html", "CSS", "JS"],
+        "live_link": "https://blainer41.github.io/Generate-Random-Quotes/",
+        "github_link": "https://github.com/BlaineR41/Generate-Random-Quotes",
+        "image_urls": ["/static/images/quotesB.png"],
+        "thumbnail": "/static/images/quotesA.png"
+
+    },
+    {
+        "id": 1,
+        "project_name": "Phrase Hunter",
+        "description": "I created a browser-based, word guessing game: Phrase Hunter. I used JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard. Can they guess the phrase before they run out of attempts?",
+        "technologies": ["html", "CSS", "JS", "OPP"],
+        "live_link": "https://blainer41.github.io/OOP-Game-App/",
+        "github_link": "https://github.com/BlaineR41/OOP-Game-App",
+        "image_urls": ["/static/images/phraseHunterB.png"],
+        "thumbnail": "/static/images/phraseHunterA.png"
+
+    },
+    {
+        "id": 2,
+        "project_name": "Interactive Form",
+        "description": "Full Stack JavaScript developers create forms to collect information from users for nearly every website and application they build. I created an interactive form using my JS your skills to enhance a form so that it is engaging, interactive, and easy to use.",
+        "technologies": ["html", "CSS", "JS", "Accessibility"],
+        "live_link": "https://blainer41.github.io/Interactive-Form/",
+        "github_link": "https://github.com/BlaineR41/Interactive-Form",
+        "image_urls": ["/static/images/interactiveFormB.png"],
+        "thumbnail": "/static/images/interactiveFormA.png"
+
+    },
+    {
+        "id": 3,
+        "project_name": "Public API Requests",
+        "description": "Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages. Using JavaScript, I created an employee directory by communicating with a third-party API (Application Programming Interface).",
+        "technologies": ["html", "CSS", "JS", "API"],
+        "live_link": "https://blainer41.github.io/Public-API-Request/",
+        "github_link": "https://github.com/BlaineR41/Public-API-Request",
+        "image_urls": ["/static/images/apiB.png"],
+        "thumbnail": "/static/images/apiA.png"
+
+    }
+    
+]
+}
