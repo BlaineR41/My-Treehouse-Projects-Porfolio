@@ -137,7 +137,7 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  background: rgb(40, 130, 240);
 }
 
 .sidebar-info-box {
@@ -167,7 +167,7 @@ nav a span {
   text-rendering: optimizeLegibility;
   line-height: 1.6;
   font-size: 14px;
-  color: #999
+  color: rgb(255, 255, 255)
 }
 
 .sidebar a {
@@ -176,7 +176,7 @@ nav a span {
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555;
+  color: rgb(249, 247, 247);
 }
 
 .header {
@@ -229,8 +229,10 @@ nav a span {
 
 .portfolio-intro h1 {
   font-size: 1.5rem;
-  color: #0a0a0a;
+  color: rgb(40, 130, 240);
   margin: 0 auto 8px;
+  text-shadow: 1px 1px 3px rgb(1, 46, 181);
+  text-align: center;
 }
 
 .portfolio-intro p {
@@ -239,6 +241,7 @@ nav a span {
   margin: 0 auto;
   padding-bottom: 40px;
   border-bottom: 1px solid #eaeaea;
+  text-align: center;
 }
 
 .projects-box h5 {
